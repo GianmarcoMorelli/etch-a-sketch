@@ -11,7 +11,7 @@ function funcPrompt(){
     mainContainer.innerHTML = "";
     if(gridDimension <= 100){
         for(i = 0; i < gridDimension*gridDimension; i++){
-            mainContainer.innerHTML += "<div class=\"myGrid\">Prova</div>";
+            mainContainer.innerHTML += "<div class=\"myGrid\">Test</div>";
         }
         newDivDimension = 100 / gridDimension;
         console.log(newDivDimension);
@@ -34,7 +34,7 @@ function funcPrompt(){
 }
 
 for(i = 0; i < 16*16; i++){
-    mainContainer.innerHTML += "<div class=\"myGrid\">Prova</div>";
+    mainContainer.innerHTML += "<div class=\"myGrid\">Test</div>";
 }
 
 const myDiv = document.querySelectorAll('.myGrid');
