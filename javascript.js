@@ -20,6 +20,16 @@ function funcPrompt(){
             element.style.height = newDivDimension + "%";
             element.style.width = newDivDimension + "%";
         });
+
+        const myDiv = document.querySelectorAll('.myGrid');
+        myDiv.forEach(element => {
+            element.addEventListener("mouseover", () => {              
+                element.classList.add('red');
+            });
+            element.addEventListener("mouseout", () => {              
+                element.classList.remove('red');
+            });;
+        });
     }
 }
 
